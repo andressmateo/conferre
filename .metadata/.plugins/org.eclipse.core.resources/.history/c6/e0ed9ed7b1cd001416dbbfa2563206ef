@@ -1,0 +1,13 @@
+package co.com.eafit.conferre.data.to;
+
+import co.com.eafit.conferre.data.base.ObjetoTO;
+
+public class AsistenteTO implements ObjetoTO {
+	
+	private String nombre;
+	private String email;
+	private int cedula;
+	private String nombre_conferencia;
+	
+	
+}

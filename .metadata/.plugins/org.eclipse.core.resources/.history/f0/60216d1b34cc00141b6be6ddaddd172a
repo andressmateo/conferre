@@ -1,0 +1,22 @@
+public class DAO_Cliente {
+
+	public DAO_Cliente() {
+	}
+
+	public void create() {
+
+	}
+
+	public Object read() {
+		return null;
+	}
+
+	public void update() {
+
+	}
+
+	public void delete() {
+
+	}
+	
+}

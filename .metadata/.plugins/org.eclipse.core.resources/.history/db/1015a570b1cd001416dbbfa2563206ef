@@ -1,0 +1,9 @@
+package co.com.eafit.conferre.data.to;
+
+import co.com.eafit.conferre.data.base.ObjetoTO;
+
+public class SillasTO implements ObjetoTO {
+	
+	
+
+}

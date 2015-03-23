@@ -1,0 +1,50 @@
+<div class="container">
+	<div class="row">
+		<br /> <br /> <br />
+		<div class="col-xs-12">
+			<div class="input-group">
+				<input type="text" class="form-control big-input"
+					ng-model="group_question" value="{{group_question}}"
+					placeholder="¿Qué te interesa?" />
+				<div class="input-group-addon">
+					<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br /> <br />
+	<div class="row">
+		<div class="col-xs-12">
+			<ul class="list-group">
+				<li class="list-group-item"
+					ng-repeat="g in groups | search_for_groups:group_question">
+					<div class="row">
+						<div class="col-xs-2">
+							<img src="http://cdn.flaticon.com/png/256/2047.png"
+								alt="Group Image" class="img-rounded img-responsive"/>
+						</div>
+						<div class="col-xs-10">
+							<h2>
+								<b>{{g}}</b>
+							</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12">
+							<h3>At vero eos et accusamus et iusto odio dignissimos
+								ducimus quieti alr ,ermmetn aporntjd riofsk</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12">
+							<a class="btn btn-lnk"><span
+								class="glyphicon glyphicon-plus" aria-hidden="true"></span> Inscribirme</a>
+							<a class="btn btn-lnk" ng-clic="view()"><span
+								class="glyphicon glyphicon-zoom-in" aria-hidden="true"></span> Ver</a>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="DAO_Cliente"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="java.lang.StrictMath"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="co.com.eafit.conferre.conferencias.data.base.to.FabricaDAO"/>
+<fullyQualifiedTypeName name="co.com.eafit.conferre.conferencias.data.dac.DAOGenerico"/>
+<fullyQualifiedTypeName name="co.com.eafit.conferre.conferencias.data.dac.ConferenciaDAO"/>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="co.com.eafit.conferre.data.to.ClienteTO"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="co.com.eafit.conferre.data.to.AsistenteTO"/>
+<fullyQualifiedTypeName name="co.com.eafit.conferre.data.base.DAOGenerico"/>
+<fullyQualifiedTypeName name="co.com.eafit.conferre.data.to.VentasTO"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,42 @@
+package co.com.eafit.conferre.conferencias.data.dac;
+
+import java.sql.PreparedStatement;
+
+public class ConferenciaDAO implements DAOGenerico {
+	
+	java.sql.Connection conn;
+	@Override
+	public void create() {
+		// TODO Auto-generated method stub
+		try{
+			ConferenciaTO conf= (ConferenciaTO) parametro;
+			PreparedStatement prep = conn.prepareStatement("*INSERT INTO conferencias values(?,?,?)*"); 
+			prep.setString(1, conf.getNombre());
+			prep.setString(2, conf.getNombreConferencista());
+			prep.setString(3, getTipo());
+			Date fecha = new Date(conf.getFecha().getTime());
+			prep.setDate(4,fecha);
+			prep.setInt(5, conf.getSillasisponibles());
+			
+		}
+	}
+
+	@Override
+	public Object read() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void update() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void delete() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
