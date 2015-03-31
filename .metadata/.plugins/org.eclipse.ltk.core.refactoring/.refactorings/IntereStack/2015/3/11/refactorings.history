@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;IntereStack/www/members&apos; to &apos;members.html&apos;" description="Rename resource &apos;members&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="www/members" name="members.html" stamp="1426021980563" updateReferences="true"/>
-</session>

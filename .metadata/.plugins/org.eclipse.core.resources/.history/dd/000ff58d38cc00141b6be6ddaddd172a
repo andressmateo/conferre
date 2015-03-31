@@ -1,7 +1,0 @@
-package co.com.eafit.conferre.conferencias.data.dac;
-
-import co.com.eafit.conferre.conferencias.data.base.to.ObjetoTO;
-
-public class ConferenciaTO implements ObjetoTO {
-	
-}

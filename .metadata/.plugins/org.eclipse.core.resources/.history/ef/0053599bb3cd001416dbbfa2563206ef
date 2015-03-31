@@ -1,9 +1,0 @@
-package co.com.eafit.conferre.data.to;
-
-import co.com.eafit.conferre.data.base.DAOGenerico;;
-
-public class SillaTO implements DAOGenerico {
-	
-
-
-}

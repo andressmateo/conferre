@@ -1,5 +1,0 @@
-package co.com.eafit.conferre.conferencias.data.base.to;
-
-public interface ObjetoTO {
-
-}
