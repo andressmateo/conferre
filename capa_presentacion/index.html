@@ -7,11 +7,16 @@
 <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.js"></script>
 <script src="js/conferre.js"></script>
 <body>
-<div ng-controller="PaginationCtrl">
-    <h1>CONFERRE</h1>
-    <button ng-click="dir('/plantillas/conferencias.html')">Conferencias</button>
-    <button ng-click="dir('/plantillas/sillas.html')">Sillas</button>
-    <button ng-click="dir('/plantillas/eventos.html')">Eventos</button>
+<div ng-controller="VentaSillasCtrl">
+    Venta de Sillas
+    Conferencia: <select ng-model="conferencia" name="" id="">
+    <option ng-repeat="conferencia in conferencias" value="{{conferencia.nombre}}">{{conferencia.nombre}}</option></select>
+   Tipo de Silla: <select ng-model="silla" name="" id="">
+    <option ng-repeat="silla in sillas" value="{{silla.tipo}}">{{silla.tipo}}<option></select>
+    Cantidad: <input type="int" ng-model="cantidad"/>
+    <h3>Costo total {{precio*cantidad}}</h3>
+
+    <h4 ng-model="message"></h4>
 </div>
 </body>
 </html>
